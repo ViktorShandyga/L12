@@ -8,7 +8,6 @@ class Human:
         self.job = job
         self.home = home
         self.car = car
-        self.cat = cat
     def get_job(self):
         if self.car.drive():
             pass
@@ -22,13 +21,13 @@ class Human:
     def get_car(self):
         self.car = Auto(brands_of_car)
 
+    def get_cat(self):
+        self.gladness = 100
+
 class Cat:
     def __init__(self, name="None", cat=None):
         self.cat = cat
 
-    def get_cat(self):
-        if self.cat = Cat()
-        self.gladness = 100
 class House:
     def __init__(self):
         self.mess = 0
