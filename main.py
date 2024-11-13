@@ -8,18 +8,27 @@ class Human:
         self.job = job
         self.home = home
         self.car = car
-def get_job(self):
-    if self.car.drive():
-        pass
-    else:
-        self.to_repair()
-        return
-    self.job = Job(job_list)
-def get_home(self):
-    self.home = House()
-def get_car(self):
-    self.car = Auto(brands_of_car)
+        self.cat = cat
+    def get_job(self):
+        if self.car.drive():
+            pass
+        else:
+            self.to_repair()
+            return
+        self.job = Job(job_list)
+    def get_home(self):
+        self.home = House()
 
+    def get_car(self):
+        self.car = Auto(brands_of_car)
+
+class Cat:
+    def __init__(self, name="None", cat=None):
+        self.cat = cat
+
+    def get_cat(self):
+        if self.cat = Cat()
+        self.gladness = 100
 class House:
     def __init__(self):
         self.mess = 0
